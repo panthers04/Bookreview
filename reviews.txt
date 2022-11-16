@@ -1,0 +1,81 @@
+<div class="review">
+	<div class="review_body col_60p">
+		<div class="review_info">
+			<a href="review.html">
+				<div class="avatar">
+					<img alt="avatar" src="images/avatar/user.jpeg" />
+				</div>
+				<div class="review_text">
+					<h3>Don't let the muggles get you down</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="cover col_40p">
+		<img alt="covers" src="images/covers/harry.jpg" />
+	</div>
+</div>
+<div class="review">
+	<div class="review_body col_60p">
+		<div class="review_info">
+			<a href="review.html">
+				<div class="avatar">
+					<img alt="avatar" src="images/avatar/user1.jpeg" />
+				</div>
+				<div class="review_text">
+					<h3>This is an extremely unsettling book about racial bigotry in all its ugliness</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="cover col_40p">
+		<img alt="cover" src="images/covers/facing-the-mountain.jpg" />
+	</div>
+</div>
+<div class="review">
+	<div class="review_body col_60p">
+		<div class="review_info">
+			<a href="review.html">
+				<div class="avatar">
+					<img alt="avatar" src="images/avatar/user.jpeg" />
+				</div>
+				<div class="review_text">
+					<h3>God is in the details, and the details of how the user experiences this text</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="cover col_40p">
+		<img alt="cover" src="images/covers/eloquent-javascript.jpg" />
+	</div>
+</div>
+<div class="review">
+	<div class="review_body col_60p">
+		<div class="review_info">
+			<a href="review.html">
+				<div class="avatar">
+					<img alt="avatar" src="images/avatar/user1.jpeg" />
+				</div>
+				<div class="review_text">
+					<h3>This book is half science experiments, half wacky buddy comedy — and it just works so so so
+						well!</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="cover col_40p">
+		<img alt="cover" src="images/covers/project-hail-mary.jpg" />
+	</div>
+</div>

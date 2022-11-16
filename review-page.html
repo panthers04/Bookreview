@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset=UTF-8">
+	<title>Bookreview | Popular Reviews</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,400;1,500&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fontello/css/fontello.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/site.webmanifest">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<script src="js/menu_mobile.js"></script>
+	<script src="js/ajax.js"></script>
+</head>
+
+<body>
+	<header id="header">
+		<div class="logo"><a href="index.html"><img src="images/Bookreview.png" alt="logo" /></a></div>
+		<!-- Nav bar -->
+		<nav id="navigation" class="top_menu">
+			<ul id="menu_navigation" class="menu">
+				<li class=""><a href="index.html">Home</a></li>
+				<li><a href="book.html">Books</a></li>
+				<li class="menu_has_children"><a href="review-page.html">Reviews</a>
+					<ul class="sub-menu">
+						<li><a href="review.html">Review1</a></li>
+						<li><a href="review.html">Review2</a>
+							<ul class="sub-menu">
+								<li><a href="review.html">Review1</a></li>
+								<li><a href="review.html">Review2</a></li>
+								<li><a href="review.html">Review3</a></li>
+							</ul>
+						</li>
+						<li><a href="review.html">Review3</a></li>
+					</ul>
+				</li>
+				<li><a href="add-review.html">Add Review</a></li>
+				<li><a href="#">Contact us</a></li>
+				<li><a href="about.html">About us</a></li>
+			</ul>
+		</nav>
+		<a href="javascript:void(0);" class="navigation_control"><i class="icon-menu"></i></a>
+	</header>
+	<div id="main" class="top_header">
+		<div class="content full_width">
+			<div class="single_page_header">
+				<h2>Latest Reviews</h2>
+				<div class="controls">
+				</div>
+			</div>
+			<section class="review_list">
+				<div class="review_wrap" id="reviews">
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+									<div class="avatar">
+										<img alt="avatar" src="images/avatar/user.jpeg" />
+									</div>
+									<div class="review_text">
+										<h3>Once upon a time, there was a boy</h3>
+										<p>Our Missing Hearts is a powerful, dystopian novel about love, loss, and
+											the
+											power of a mother’s love.
+											12-year-old Bird’s life changed when his mother left three years ago. He
+											now
+											lives with his father, a former professor turned librarian, in a dorm.
+											They
+											live a quiet,compliant life ...
+										</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="Our Missing Hearts" src="images/covers/our-missing-hearts.jpg" />
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+									<div class="avatar">
+										<img alt="avatar" src="images/avatar/user1.jpeg" />
+									</div>
+									<div class="review_text">
+										<h3>Terrific fantasy setting and storyline</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+											veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat. Duis aute irure dolor in reprehen...</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="Chronicles Of Narnia" src="images/covers/the_chronicles_of_narnia.jpg" />
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+									<div class="avatar">
+										<img alt="avatar" src="images/avatar/user1.jpeg" />
+									</div>
+									<div class="review_text">
+										<h3>Opinionated, often counterintuitive, full of delicious stories, always
+											provocative</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+											veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat. Duis aute irure dolor in reprehen...</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="How Innovation Works" src="images/covers/how_innovation_works.jpeg" />
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+									<div class="avatar">
+										<img alt="avatar" src="images/avatar/user.jpeg" />
+									</div>
+									<div class="review_text">
+										<h3>I wanted to read it before watching the Netflix adaptation</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+											veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat. Duis aute irure dolor in reprehen...</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="Purple Hearts" src="images/covers/purple-hearts.jpg" />
+						</div>
+					</div>
+				</div>
+				<input class="more_review" type="button" value="More Reviews"
+					onclick="getData('reviews.txt', 'reviews')">
+			</section>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="containerf">
+			<div class="rowf">
+				<div class="footer-col">
+					<h4>Subscribe to Get in
+					</h4>
+					<p>Yup! We know you don't wanna miss out our top 10 list of books and Much More exciting
+						Things..
+					</p>
+					<div class="sub">
+						<form id="submit-to-google-sheet" style="display: inline-block;">
+							<input type="email" name="email" placeholder="Your Best Email" class="email-input-field">
+							<button type="submit" <span><i class="fa fa-envelope" aria-hidden="true"></i>
+								</span></button>
+						</form>
+					</div>
+					<span style="display: flex;" id="msg">
+					</span>
+				</div>
+				<div class="footer-col">
+					<h4>company</h4>
+					<ul>
+						<li><a href="about.html">about us</a></li>
+						<li><a href="#">careers</a></li>
+						<li><a href="privacy.html">privacy policy</a></li>
+						<li><a href="terms.html">terms of use</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>get help</h4>
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">authors</a></li>
+						<li><a href="#">advertise</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>features</h4>
+					<ul>
+						<li><a href="book.html">Books</a></li>
+						<li><a href="review-page.html">book reviews</a></li>
+						<li><a href="singup-login.html">sign up</a></li>
+						<li><a href="singup-login.html">login</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>follow us</h4>
+					<div class="social-links">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="footer-col"></div>
+				<div class="footer-col">
+					<h4>Address</h4>
+					<ul>
+						<li>
+							<p>#abc,street,</p>
+						</li>
+						<li>
+							<p>Bangalore,Karnataka,IN</p>
+						</li>
+						<li>
+							<span style="color:#bbbbbb " display: inline;>
+								<a href="tel:123-456-7890"><i class="fa fa-phone  fa-flip-horizontal"
+										aria-hidden="true"></i>
+									123-456-7890</a>
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<div class="about">
+						<ul>
+							<li><a href="index.html"><img src="images/Bookreview.png" alt="logo" /></a></li>
+							<li> a website for book lovers.</li>
+							<li>© 2022 Bookreview, Inc.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/email.js"></script>
+</body>
+
+</html>

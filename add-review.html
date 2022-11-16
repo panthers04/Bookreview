@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset=UTF-8">
+	<title>New Review</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,400;1,500&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fontello/css/fontello.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/site.webmanifest">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="js/menu_mobile.js"></script>
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+	<!-- Nav bar -->
+	<header id="header">
+		<div class="logo"><a href="index.html"><img src="images/Bookreview.png" alt="logo" /></a></div>
+		<!-- Nav bar -->
+		<nav id="navigation" class="top_menu">
+			<ul id="menu_navigation" class="menu">
+				<li class=""><a href="index.html">Home</a></li>
+				<li><a href="book.html">Books</a></li>
+				<li class="menu_has_children"><a href="review-page.html">Reviews</a>
+					<ul class="sub-menu">
+						<li><a href="review.html">Review1</a></li>
+						<li><a href="review.html">Review2</a>
+							<ul class="sub-menu">
+								<li><a href="review.html">Review1</a></li>
+								<li><a href="review.html">Review2</a></li>
+								<li><a href="review.html">Review3</a></li>
+							</ul>
+						</li>
+						<li><a href="review.html">Review3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Add Review</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+				<li><a href="about.html">About us</a></li>
+			</ul>
+		</nav>
+		<a href="javascript:void(0);" class="navigation_control"><i class="icon-menu"></i></a>
+	</header>
+	<div id="main" class="top_header">
+		<div class="content full_width">
+			<div class="single_page_header">
+				<h2>Add Your Review</h2>
+				<div class="controls">
+				</div>
+			</div>
+			<section class="contact">
+				<div class="contact_form">
+					<form id="contact_form">
+						<label for="fname">First name and Last name:</label>
+						<input type="text" id="fname" name="fname" placeholder="Enter your Full name..">
+						<label for="femail">Your e-mail:</label>
+						<input type="text" id="femail" name="femail" placeholder="Enter your email..">
+						<label for="ftitle">Book Title:</label>
+						<input type="text" id="ftitle" name="ftitle" placeholder="Enter Book Name..">
+						<label for="ftext">Your Review:</label>
+						<textarea rows="4" id="ftext"></textarea>
+						<label for="fcheck">How much is 156-35?</label>
+						<input type="text" id="fcheck" name="fcheck" placeholder="Enter the result ..">
+						<div id="msg">
+
+						</div>
+						<input type="submit" value="Add Review">
+					</form>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="containerf">
+			<div class="rowf">
+				<div class="footer-col">
+					<h4>Subscribe to Get in
+					</h4>
+					<p>Yup! We know you don't wanna miss out our top 10 list of books and Much More exciting Things..
+					</p>
+					<div class="sub">
+						<form id="submit-to-google-sheet" style="display: inline-block;">
+							<input type="email" name="email" placeholder="Your Best Email" class="email-input-field">
+							<button type="submit" <span><i class="fa fa-envelope" aria-hidden="true"></i>
+								</span></button>
+						</form>
+					</div>
+					<span style="display: flex;" id="msg">
+					</span>
+				</div>
+				<div class="footer-col">
+					<h4>company</h4>
+					<ul>
+						<li><a href="about.html">about us</a></li>
+						<li><a href="#">careers</a></li>
+						<li><a href="privacy.html">privacy policy</a></li>
+						<li><a href="terms.html">terms of use</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>get help</h4>
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">authors</a></li>
+						<li><a href="#">advertise</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>features</h4>
+					<ul>
+						<li><a href="book.html">Books</a></li>
+						<li><a href="review-page.html">book reviews</a></li>
+						<li><a href="singup-login.html">sign up</a></li>
+						<li><a href="singup-login.html">login</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>follow us</h4>
+					<div class="social-links">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="footer-col"></div>
+				<div class="footer-col">
+					<h4>Address</h4>
+					<ul>
+						<li>
+							<p>#abc,street,</p>
+						</li>
+						<li>
+							<p>Bangalore,Karnataka,IN</p>
+						</li>
+						<li>
+							<span style="color:#bbbbbb " display: inline;>
+								<a href="tel:123-456-7890"><i class="fa fa-phone  fa-flip-horizontal"
+										aria-hidden="true"></i>
+									123-456-7890</a>
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<div class="about">
+						<ul>
+							<li><a href="index.html"><img src="images/Bookreview.png" alt="logo" /></a></li>
+							<li> a website for book lovers.</li>
+							<li>© 2022 Bookreview, Inc.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/form_jquery.js"></script>
+	<script src="js/email.js"></script>
+
+</body>
+
+</html>
