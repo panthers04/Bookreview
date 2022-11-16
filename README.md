@@ -12,7 +12,7 @@ about books and so on.
  Interactive Forms and Post request using JAVASCRIPT>
  Subscribers email list is updated automatically in a linked Google Sheet
    
- [Demo](https://panthers04.github.io/bookreview/index.html)
+ [Demo](https://panthers04.github.io/template-book-site/)
    
  ###Screenshots:https://raw.githubusercontent.com/panthers04/template-book-site/main/others/screens.png
  
