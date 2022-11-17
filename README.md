@@ -10,7 +10,7 @@ about books and so on.
  * This template is designed using HTML, CSS and JAVASCRIPT.
  * Fully Responsive using CSS
  * Interactive Forms and Post request using JAVASCRIPT
- * Subscribers email list is updated automatically in a linked Google Sheet
+ * Subscribers email list is updated automatically in a [linked Google Sheet](https://docs.google.com/spreadsheets/d/1Algls2PDN2saPR628ufmiQYcLxLqgnrQ5VS2bStTvKE/edit?usp=sharing)
    
  ### [Demo](https://panthers04.github.io/template-book-site/)
    
