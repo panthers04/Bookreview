@@ -1,6 +1,6 @@
 # template-book-site
 
-A Project by Team PANTHERS04 by a group of 4:
+A Project by Team PANTHERS04, a group of four Engineering Students:
 * Rakshith V Patil
 * Divya H M
 * Sahana
