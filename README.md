@@ -1,5 +1,11 @@
 # template-book-site
 
+A Project by Team PANTHERS04 by a group of 4:
+* Rakshith V Patil
+* Divya H M
+* Sahana
+* Arpitha 
+
 A template on booksite,which is designed to provide 
 insights of some of the best Books.
 
