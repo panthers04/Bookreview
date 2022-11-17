@@ -19,6 +19,8 @@ about books and so on.
  * Subscribers email is submitted to a [linked Google Sheet](https://docs.google.com/spreadsheets/d/1Algls2PDN2saPR628ufmiQYcLxLqgnrQ5VS2bStTvKE/edit?usp=sharing) 
    
  ### [Demo](https://panthers04.github.io/template-book-site/)
+ 
+ ###[Landing Page Figma Design](https://www.figma.com/file/6H4FZwXjD2CAoCyoYOrNqX/Untitled?node-id=0%3A1&t=RE7vTO7Eoan2YZqw-1)
    
  ### [Screenshots](https://raw.githubusercontent.com/panthers04/template-book-site/main/others/screens.png) :
  
